@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MISHRA-TUSHAR/college-search-api/config"
-	"github.com/MISHRA-TUSHAR/college-search-api/entities"
+	"github.com/MISHRA-TUSHAR/indian-college-api/config"
+	"github.com/MISHRA-TUSHAR/indian-college-api/entities"
 	"github.com/gofiber/fiber/v2"
 	"golang.org/x/time/rate"
 )

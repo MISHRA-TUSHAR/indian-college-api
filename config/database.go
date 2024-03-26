@@ -1,10 +1,10 @@
-package confi
+package config
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/MISHRA-TUSHAR/college-app/entities"
+	"github.com/MISHRA-TUSHAR/indian-college-api/entities"
 	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -13,12 +13,12 @@ import (
 
 var Db *gorm.DB
 
-func Connect() {
+func Connect() error {
 	var err error
 	envErr := godotenv.Load(".env")
 	if envErr != nil {
 		fmt.Println("Error loading .env file")
-		os.Exit(1)
+		return envErr
 	}
 
 	DATABASE_URI := os.Getenv("DATABASE_URI")
