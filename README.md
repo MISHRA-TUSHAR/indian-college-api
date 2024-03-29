@@ -2,7 +2,7 @@
 
 Indian College API is a web service providing information about colleges in India. It allows users to search for colleges based on various criteria such as state, district, etc.
 
-This API uses data sourced from [data.gov.in/catalog/institutions-aishe-survey](data.gov.in/catalog/institutions-aishe-survey), which has been made publicly available by the government of India.
+This API uses data sourced from [data.gov.in/catalog/institutions-aishe-survey] data.gov.in/catalog/institutions-aishe-survey , which has been made publicly available by the government of India.
 
 ## Features
 
