@@ -2,7 +2,7 @@ module github.com/MISHRA-TUSHAR/indian-college-api
 
 go 1.22.0
 
-require github.com/gofiber/fiber/v2 v2.52.2
+require github.com/gofiber/fiber/v2 v2.52.5
 
 require (
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
